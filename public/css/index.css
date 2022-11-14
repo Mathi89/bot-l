@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.section-all {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 30px;
+}
+.div-body h2 {
+    padding: 10px;
+    width: 100%;
+    background: #f3c211;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+.space-checks {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px 0;
+    padding-bottom: 20px;
+}
+
+.space-log-tms-check input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.consulta-id {
+    width: 100%;
+    padding: 10px;
+    min-height: 351px;
+    display: block;
+    margin: 10px 0;
+    outline: none;
+    resize: vertical;
+    max-height: 351px;
+}
+
+.div-body #action {
+    background: #21b70f;
+    width: 80%;
+    margin: 0 auto;
+    height: 30px;
+    display: block;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.center {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.center h3 {
+    display: block;
+    padding: 22px 0;
+}
+
+.center a {
+    background: #0da2db;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 10px;
+}
